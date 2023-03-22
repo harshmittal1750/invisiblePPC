@@ -1,0 +1,57 @@
+.custom-bg-primary {
+  background-color: #1255cc;
+  color: #ffffff;
+}
+.blur {
+  color: transparent;
+  text-shadow: 0 0 18px #000;
+}
+.footer-list.active {
+  color: #29932a;
+}
+.footer-list {
+  line-height: 1.9;
+}
+.footer-list:hover {
+  color: #29932a;
+}
+@media screen and (max-width: 992px) {
+  .content-hidden {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .text-mob-center {
+    text-align: center;
+  }
+}
+
+.header-bg {
+  background-image: url(./assets/images/Icon-with-white-background.png);
+  width: 100%;
+  /* height: 60vh; */
+  /* position: absolute; */
+  /* background-image: url("./assets/images/header-background.webp"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position: center; */
+}
+.nav-drop-down {
+  border: 3px solid #1255cc;
+  /* color: #1255cc; */
+  border-radius: 0;
+  padding: 10px;
+}
+.dropdown-item {
+  color: #1255cc;
+  font-size: large;
+  font-weight: 600;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+.btn:hover {
+  background-color: #35d362 !important;
+}
